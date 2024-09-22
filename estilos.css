@@ -1,0 +1,122 @@
+
+
+.Encabezado {
+   width: 100%;
+   height: 100%; 
+   background-image: url(https://static.vecteezy.com/system/resources/previews/006/421/618/large_2x/colorful-gradient-abstract-background-free-photo.jpg);
+   background-size: cover;
+   text-align: center;
+   padding: 20px;
+   position: relative;
+   border-radius: 20px;
+}
+
+.Encabezado img{
+max-width: 20%;
+max-height: 50%;
+border-radius: 20px; 
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.Encabezado h1 {
+    font-size: 36px;
+    color: blue;
+}
+
+.Encabezado h2 {
+    font-size: 24px;
+    color: aqua;
+}
+
+
+.Accesos a {
+    color:black;
+}
+.Accesos a:hover{
+color: rgb(177, 25, 25);
+}
+
+.Productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Polera {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.Polera img {
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+.Polera img:hover {
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+}
+.Short {
+    background-color: rgb(71, 173, 85);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.Short img {
+    width: 50%;
+    height: 46%;
+    border: 2px solid black;
+}
+.Short img:hover {
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+}
+.base {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(112, 212, 212);
+    padding-top: 20px;  
+}
+
+.Dirección {
+    width: 100%;
+    height: 100%;   
+}
+
+.Dirección h3{
+    font-size: 18px;
+    color: rgb(1, 1, 66);
+}
+
+.Dirección h4{
+    font-size: 14px;
+    color: rgb(1, 66, 17);
+}
+
+.Horarios {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Horarios h3 {
+font-size: 18px;
+color: rgb(7, 7, 59);
+}
+
+.Horarios h4{
+    font-size: 14px;
+    color: rgb(1, 66, 17);
+}
+
+.Contacto {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/006/421/618/large_2x/colorful-gradient-abstract-background-free-photo.jpg);
+  background-size: cover;
+  text-align: end;
+}
